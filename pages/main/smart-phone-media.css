@@ -1,0 +1,43 @@
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+
+  .section-1 {
+    height: 221px;
+    background-position: bottom;
+    background-size: 400px 200px;
+  }
+
+  header {
+    height: 34px;
+    padding: 2.5px 10px;
+  }
+
+  a.logo-1 {
+    margin-right: 235px;
+  }
+
+  #watch__text {
+    width: 128.13px;
+    height: 102.44px;
+    font-size: 28px;
+    margin-top: 75px;
+    margin-left: 181px;
+  }
+
+  .big-circle {
+    width: 119.09px;
+    height: 119.09px;
+    margin-left: 162px;
+    margin-top: 56px;
+  }
+
+  .button__watch-online {
+    margin: 0 11px;
+    margin-top: 241px;
+  }
+
+  .section-2 {
+  }
+}
