@@ -8,7 +8,6 @@
 
   body {
     width: 640px;
-    overflow: hidden;
   }
 
   .section-1 {
@@ -323,5 +322,8 @@
     position: absolute;
     right: -210px;
     top: -6px;
+  }
+  .phone-footer_logo {
+    display: none;
   }
 }

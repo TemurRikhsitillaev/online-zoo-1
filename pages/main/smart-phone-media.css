@@ -1,7 +1,6 @@
 @media (max-width: 320px) {
   body {
     width: 320px;
-    overflow: hidden;
   }
 
   .section-1 {
@@ -40,5 +39,237 @@
   }
 
   .section-2 {
+    height: 500px;
+    background-size: 35%;
+    background-position: 287px 35px;
+    padding: 100px 10px 40px 10px;
+  }
+
+  .backstage__text {
+    height: 388px;
+  }
+
+  .backstage__text h2 {
+    height: 58px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  #backstage__text-1 {
+    margin-top: 10px;
+  }
+
+  .backstage__text h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section-3 {
+    height: 1522px;
+    margin-top: 40px;
+    padding: 0 17px;
+    background-size: 20%;
+  }
+  .arrow__button {
+    display: none;
+  }
+
+  .container__arrow_and_animal-cards {
+    /* height: 1388px; */
+    width: 285px;
+  }
+
+  .container-animal-cards {
+    grid-template-columns: 285px;
+    grid-template-rows: repeat(4, 332px);
+    row-gap: 20px;
+    column-gap: 0;
+  }
+  .panda {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .eagles {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .gorillas {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .alligators {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+
+  .container__arrow_and_animal-cards {
+    display: block;
+    width: 285px;
+    height: 1388px;
+  }
+  .button__choose-favorite {
+    margin-left: -5px;
+    margin-top: 20px;
+  }
+
+  .section-4 {
+    height: 1082px;
+    padding: 20px 10px;
+  }
+
+  .container__pick-and-feed {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .container__pick-and-feed h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 10px;
+  }
+
+  .container__pick-and-feed h3 {
+    height: 66px;
+    width: 297px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+
+    text-align: center;
+
+    padding: 0;
+  }
+
+  .container__pick-and-feed h4 {
+    display: none;
+  }
+  .margin-bottom60px {
+    display: none;
+  }
+
+  .container__pick-and-feed h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+
+    margin: 20px 0;
+  }
+
+  .container__how-it-works {
+    display: block;
+    height: 724px;
+    margin-bottom: 30px;
+  }
+
+  .image__background {
+    margin-bottom: 10px;
+  }
+
+  .feed-friend-button {
+    margin: 0;
+  }
+
+  .arrow-1 {
+    transform: rotate(85deg);
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 190px;
+  }
+
+  .arrow-2 {
+    transform: rotate(85deg);
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 435px;
+  }
+
+  .section-5 {
+    height: 580px;
+    padding: 30px 10px 60px 10px;
+    background-size: 20%;
+    background-position: 260px 510px;
+  }
+
+  .section-5 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  p.feedback-text {
+    height: 38px;
+    width: 252px;
+  }
+
+  .container__feedback-cards {
+    height: 357px;
+    margin-bottom: 30px;
+  }
+
+  .container__feedback-card {
+    height: 109px;
+    width: 299px;
+  }
+
+  .button__leave-feedback {
+    margin: 0 30px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 334px;
+  }
+
+  .footer-logo-hidden {
+    display: none;
+  }
+  .phone-footer_logo {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .button__donate {
+    position: absolute;
+    margin-top: 129px;
+    margin-left: -9px;
+  }
+
+  .position-1 {
+    position: absolute;
+    margin-top: 73px;
+    left: 63px;
+  }
+  .position-2 {
+    position: absolute;
+    top: 85px;
+    left: 119px;
+  }
+  .position-3 {
+    position: absolute;
+    top: 85px;
+    left: 175px;
+  }
+  .position-4 {
+    position: absolute;
+    top: 85px;
+    left: 231px;
+  }
+
+  .footer__link__rsschool {
+    position: absolute;
+    left: 75px;
+    top: 10px;
+
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 120%;
+  }
+
+  a.footer-link {
+    margin-right: 30px;
   }
 }
