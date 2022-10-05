@@ -19,5 +19,142 @@
 @media (max-width: 320px) {
   body {
     width: 320px;
+    height: 3000px;
   }
+
+  /* SECTION-1 */
+
+  .section-1 {
+    height: 221px;
+
+    background-position: -200px 10px;
+    background-size: cover;
+  }
+
+  header {
+    height: 34px;
+    padding: 2.5px 10px;
+  }
+
+  a.logo-1 {
+    margin-right: 235px;
+  }
+
+  /* SECTION-1 | END */
+
+  /* SECTION-2 */
+
+  .section-2 {
+    height: 2000px;
+    padding: 30px 10px 20px 10px;
+  }
+
+  .text__donate-info {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  /* CONTAINER PICK AND FEED */
+
+  .container__pick-and-feed {
+    height: 591px;
+    padding: 20px 0;
+  }
+
+  .text__header-pick-and-feed {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .text__sub-header {
+    font-size: 16px;
+  }
+
+  /* CONTAINER PANDA */
+
+  .container__panda-diet {
+    height: 138px;
+  }
+
+  .container__number {
+    width: 52px;
+    height: 90px;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .text__number-four {
+    font-size: 40.6015px;
+    line-height: 80%;
+  }
+
+  .text__sub-title-number {
+    font-size: 9.02255px;
+  }
+
+  /* CONTAINER PANDA | END */
+
+  /* CONTAINER PICK AND FEED | END */
+
+  /* SECTION-2 | END */
+
+  /* FOOTER */
+  footer {
+    height: 334px;
+    position: absolute;
+    left: 0;
+    top: 3000px;
+  }
+
+  .footer-logo-hidden {
+    display: none;
+  }
+  .phone-footer_logo {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .button__donate {
+    position: absolute;
+    margin-top: 129px;
+    margin-left: -9px;
+  }
+
+  .position-1 {
+    position: absolute;
+    margin-top: 73px;
+    left: 63px;
+  }
+  .position-2 {
+    position: absolute;
+    top: 85px;
+    left: 119px;
+  }
+  .position-3 {
+    position: absolute;
+    top: 85px;
+    left: 175px;
+  }
+  .position-4 {
+    position: absolute;
+    top: 85px;
+    left: 231px;
+  }
+
+  .footer__link__rsschool {
+    position: absolute;
+    left: 75px;
+    top: 10px;
+
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 120%;
+  }
+
+  a.footer-link {
+    margin-right: 30px;
+  }
+  /* FOOTER | END */
 }
