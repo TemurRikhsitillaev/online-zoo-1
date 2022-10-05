@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../assests/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../../assests/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 1000px;
+    height: 2246px;
+  }
+
+  /* SECTION-1  */
+  .section-1 {
+    height: 470px;
+  }
+
+  header {
+    padding: 14px 30px;
+  }
+
+  a.nav-link {
+    margin-right: 48px;
+  }
+
+  a.last {
+    width: 105px;
+    margin-left: 200px;
+  }
+
+  /* SECTION-1 | END */
+
+  /* SECTION-2 */
+
+  .section-2 {
+    height: 1333px;
+    padding: 40px 30px 30px 30px;
+  }
+
+  .text__header-section-2 {
+    margin-bottom: 30px;
+  }
+
+  .text__donate-info {
+    margin-bottom: 40px;
+  }
+
+  /* CONTAINER PICK AND FEED */
+
+  .container__pick-and-feed {
+    height: 918px;
+    padding: 10px 0 46px 0;
+  }
+
+  .text__header-pick-and-feed {
+    margin-bottom: 10px;
+  }
+
+  .text__sub-header {
+    margin-left: 47px;
+  }
+
+  /* CONTAINER PANDA */
+  .container__number {
+    margin-left: 196px;
+  }
+  /* CONTAINER PANDA | END */
+
+  /* CONTAINER PROGRESS-BAR */
+
+  .container__progress-bar {
+    margin-left: 92px;
+    height: 105px;
+
+    overflow: hidden;
+
+    margin-bottom: 50px;
+  }
+
+  .progress-steps {
+    width: 810px;
+    height: 40px;
+  }
+
+  .progress-steps:after {
+    width: 755px;
+    /* margin-left: 0; */
+    overflow: hidden;
+  }
+
+  .progress-step:first-child {
+    margin-left: -129px;
+  }
+
+  /* CONTAINER PROGRESS-BAR | END */
+
+  .input-amount {
+    margin: 0 336px;
+    margin-bottom: 26px;
+  }
+
+  .container__radio {
+    margin-left: 363px;
+    margin-bottom: 30px;
+  }
+
+  .button__feed-friend {
+    margin-left: 323px;
+  }
+
+  .text__share {
+    margin-left: 321px;
+  }
+
+  /* CONTAINER PICK AND FEED | END */
+
+  /* SECTION-2 | END */
+
+  /* FOOTER */
+
+  footer {
+    padding: 40px 30px 50px 30px;
+  }
+
+  .second-column {
+    height: 353px;
+    position: absolute;
+    margin-left: 291px;
+  }
+
+  .third-column {
+    width: 398px;
+    height: 353px;
+    position: absolute;
+    margin-left: 541px;
+  }
+
+  .footer__link__rsschool {
+    margin-left: 170px;
+  }
+
+  /* FOOTER END */
+}

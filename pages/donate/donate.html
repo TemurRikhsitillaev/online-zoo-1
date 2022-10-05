@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../donate/donate-styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (color)"
+      href="small-desktop-media.css"
+    />
     <title>Donate</title>
   </head>
   <body>
@@ -53,7 +58,9 @@
           <a href="index.html" class="nav-link">About</a>
           <a href="" class="nav-link">Map</a>
           <a href="" class="nav-link">Zoos</a>
-          <a href="../donate/donate.html" class="nav-link">Donate</a>
+          <a href="../donate/donate.html" class="nav-link link-active"
+            >Donate</a
+          >
 
           <a
             href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
@@ -106,6 +113,7 @@
         </div>
 
         <div class="container__progress-bar">
+          <span class="text__amount">Amount</span>
           <ul class="progress-steps">
             <li class="progress-step">
               <span class="progress-circle"></span>
@@ -177,6 +185,80 @@
         <p class="text__share">Share with your friends on social networks</p>
       </div>
     </section>
+
+    <footer>
+      <div class="first-column">
+        <a href="index.html" class="logo display-block footer-logo-hidden">
+          <img src="../../assests/icons/logo_footer.png" />
+        </a>
+
+        <a href="index.html" class="logo display-block phone-footer_logo">
+          <img src="../../assests/icons/phone-footer-logo.png" />
+        </a>
+
+        <button class="button__donate">donate for volunteers</button>
+
+        <a href="#" class="nav-link block margin-bottom10px position-1"
+          ><span class="background__icon"
+            ><img src="../../assests/icons/facebook.png" alt="facebook" /></span
+          ><span class="hidden-text">Facebook</span></a
+        >
+
+        <a href="#" class="nav-link block margin-bottom10px position-2"
+          ><span class="background__icon"
+            ><img src="../../assests/icons/twitter.png" alt="twitter" /></span
+          ><span class="hidden-text">Twitter</span></a
+        >
+
+        <a href="#" class="nav-link block margin-bottom10px position-3"
+          ><span class="background__icon"
+            ><img
+              src="../../assests/icons/instagram.png"
+              alt="instagram" /></span
+          ><span class="hidden-text">Instagram</span></a
+        >
+
+        <a href="#" class="nav-link block position-4"
+          ><span class="background__icon"
+            ><img src="../../assests/icons/youtube.png" alt="youtube" /></span
+          ><span class="hidden-text">YouTube</span></a
+        >
+      </div>
+
+      <div class="second-column">
+        <nav class="footer-nav">
+          <a href="index.html" class="nav-link footer-link">About</a>
+          <a href="" class="nav-link footer-link">Map</a>
+          <a href="" class="nav-link footer-link">Zoos</a>
+          <a
+            href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+            class="nav-link footer-link"
+            >Contact us</a
+          >
+        </nav>
+      </div>
+
+      <div class="third-column">
+        <label for="user__email" class="user__email__label"
+          >Subscribe to our news</label
+        ><br />
+        <form>
+          <input
+            class="input__email"
+            type="email"
+            name="user__email"
+            required
+            placeholder="Enter your email"
+          />
+
+          <button class="button__submit">Submit</button>
+        </form>
+
+        <p class="footer__link__rsschool">
+          Designed by Alisa Samborskaya<br />©RSSchool & ©Yem Digital 2021
+        </p>
+      </div>
+    </footer>
 
     <script src="progress-bar.js"></script>
   </body>
