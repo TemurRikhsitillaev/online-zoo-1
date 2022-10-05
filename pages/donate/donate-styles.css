@@ -464,8 +464,8 @@ button:active {
   margin-left: 0;
 }
 
-/* .circleActive {
-} */
+.circleActive {
+}
 
 .circleActive:after {
   content: "";

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../assests/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../../assests/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+  }
+}

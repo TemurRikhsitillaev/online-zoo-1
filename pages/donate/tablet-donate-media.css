@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../../assests/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../../assests/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@media (max-width: 640px) {
+  body {
+    width: 640px;
+    height: 1984px;
+  }
+
+  /* SECTION-1 */
+
+  .nav-desktop {
+    display: none;
+  }
+  a.last {
+    display: none;
+  }
+
+  body {
+    width: 640px;
+  }
+
+  .section-1 {
+    height: 373px;
+    background-position: -320px 0px;
+  }
+
+  header {
+    height: 34px;
+    padding: 0 20px;
+    position: fixed;
+  }
+
+  .button__nav-menu {
+    display: flex;
+    z-index: 999;
+  }
+
+  .menu-button-burger {
+    z-index: 999;
+    display: block;
+    background: #ffffff;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-1 {
+    display: inline-block;
+    margin-right: 535px;
+  }
+
+  /* SECTION-1 | END */
+
+  /* SECTION-2 */
+
+  .section-2 {
+    padding: 30px 20px 46px 20px;
+  }
+
+  .text__header-section-2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .text__zoo-info {
+    margin-bottom: 30px;
+  }
+
+  .text__donate-info {
+    margin-bottom: 30px;
+  }
+
+  /* CONTAINER PICK AND FEED */
+
+  .container__pick-and-feed {
+    padding: 19px 0 31px 0;
+  }
+
+  .text__header-pick-and-feed {
+    margin-bottom: 20px;
+  }
+
+  .text__sub-header {
+    margin-left: 0;
+    margin-bottom: 50px;
+
+    text-align: center;
+  }
+
+  /* CONTAINER PANDA */
+
+  .container__number {
+    margin-left: 27px;
+  }
+
+  /* CONTAINER PANDA | END */
+
+  /* CONTAINER PROGRESS-BAR */
+
+  .text__amount {
+    margin-left: 10px;
+  }
+
+  .container__progress-bar {
+    margin-left: 0;
+  }
+
+  .progress-steps {
+    width: 600px;
+    height: 40px;
+  }
+
+  .progress-steps:after {
+    width: 524px;
+    /* margin-left: 0; */
+    overflow: hidden;
+  }
+
+  .progress-step:first-child {
+    margin-left: -400px;
+  }
+
+  /* CONTAINER PROGRESS-BAR | END */
+
+  .input-amount {
+    width: 180px;
+    height: 42px;
+    margin: 0 210px;
+    margin-bottom: 31px;
+  }
+
+  .container__radio {
+    display: flex;
+    margin-left: 192px;
+    margin-bottom: 30px;
+  }
+
+  .radio {
+    margin-right: 50px;
+  }
+
+  .button__feed-friend {
+    margin-left: 152px;
+  }
+
+  .text__share {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* CONTAINER PICK AND FEED | END */
+
+  /* SECTION-2 | END */
+
+  /* FOOTER */
+
+  footer {
+    height: 282px;
+    padding: 12px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .button__donate {
+    margin-top: 32px;
+  }
+
+  .first-column {
+    height: 138px;
+  }
+
+  .second-column {
+    margin: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+  }
+
+  a.footer-link {
+    margin-right: 37px;
+  }
+  a.footer-link:last-child {
+    margin-left: 0;
+  }
+
+  .hidden-text {
+    display: none;
+  }
+
+  .position-1 {
+    position: absolute;
+    margin: 0;
+    right: -110px;
+    top: 12px;
+  }
+
+  .position-2 {
+    position: absolute;
+    margin: 0;
+    right: -110px;
+    top: 58px;
+  }
+  .position-3 {
+    position: absolute;
+    margin: 0;
+    right: -110px;
+    top: 104px;
+  }
+  .position-4 {
+    position: absolute;
+    margin: 0;
+    right: -62px;
+    top: 152px;
+  }
+
+  .third-column {
+    height: 10px;
+    margin: 0;
+  }
+
+  form {
+    display: none;
+  }
+
+  .user__email__label {
+    display: none;
+  }
+
+  .footer__link__rsschool {
+    width: 228px;
+    height: 52px;
+    margin-left: 0;
+    position: absolute;
+    right: -210px;
+    top: -6px;
+  }
+  .phone-footer_logo {
+    display: none;
+  }
+
+  /* FOOTER | END */
+}
