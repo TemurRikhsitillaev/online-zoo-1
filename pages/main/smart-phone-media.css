@@ -69,6 +69,7 @@
     margin-top: 40px;
     padding: 0 17px;
     background-size: 20%;
+    overflow: hidden;
   }
   .arrow__button {
     display: none;
@@ -115,6 +116,7 @@
   .section-4 {
     height: 1082px;
     padding: 20px 10px;
+    overflow: hidden;
   }
 
   .container__pick-and-feed {
@@ -189,6 +191,7 @@
     padding: 30px 10px 60px 10px;
     background-size: 20%;
     background-position: 260px 510px;
+    overflow: hidden;
   }
 
   .section-5 h2 {
@@ -220,6 +223,7 @@
 
   footer {
     height: 334px;
+    overflow: hidden;
   }
 
   .footer-logo-hidden {

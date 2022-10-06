@@ -14,6 +14,7 @@
     /* background-size: 800px 520px; */
     height: 373px;
     /* background-position: top left; */
+    overflow: hidden;
   }
 
   header {
@@ -70,6 +71,7 @@
     padding-top: 60px;
     padding-left: 20px;
     margin-bottom: 0;
+    overflow: hidden;
   }
 
   .image__bamboo-cap {
@@ -80,6 +82,7 @@
     height: 971px;
     margin-top: 80px;
     background-size: 170px;
+    overflow: hidden;
   }
 
   .cheetahs {
@@ -142,6 +145,7 @@
 
   .section-4 {
     padding: 20px 0;
+    overflow: hidden;
   }
 
   .container__pick-and-feed {
@@ -196,6 +200,7 @@
   .section-5 {
     height: 680px;
     padding: 60px 20px 80px 20px;
+    overflow: hidden;
   }
 
   .container__feedback-cards {
@@ -244,6 +249,7 @@
     height: 282px;
     padding: 12px 20px;
     position: relative;
+    overflow: hidden;
   }
 
   .display-block {

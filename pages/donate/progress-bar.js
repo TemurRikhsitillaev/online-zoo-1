@@ -7,7 +7,7 @@ const bodyWidth = document.querySelector("body").clientWidth;
 const dollar100 = document.querySelector(".dollar100");
 const dollar100text = document.querySelector(".dollar100text");
 
-if (bodyWidth == 640) {
+if (bodyWidth == 640 || bodyWidth == 320) {
   dollar100text.classList.add("countActive");
   dollar100.classList.add("circleActive");
 }

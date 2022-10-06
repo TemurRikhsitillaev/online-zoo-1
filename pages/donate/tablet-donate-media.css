@@ -176,6 +176,7 @@
     height: 282px;
     padding: 12px 20px;
     position: relative;
+    overflow: hidden;
   }
 
   .display-block {

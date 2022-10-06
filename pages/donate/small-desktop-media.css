@@ -47,7 +47,7 @@
   .section-2 {
     height: 1333px;
     padding: 40px 30px 30px 30px;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
 
   .text__header-section-2 {

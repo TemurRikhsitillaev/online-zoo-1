@@ -7,6 +7,7 @@
   .section-1 {
     height: 584px;
     background-position: center;
+    overflow: hidden;
   }
   header {
     padding: 14px 30px;
@@ -54,6 +55,7 @@
     padding-top: 100px;
     width: 100%;
     margin-bottom: 142px;
+    overflow: hidden;
   }
 
   .container__backstage {
@@ -82,6 +84,7 @@
     padding: 0 30px;
     background: url(../../assests/images/palm_foto-2.png) left bottom no-repeat,
       url(../../assests/images/strelitzia-2.png) right bottom no-repeat;
+    overflow: hidden;
   }
 
   .container-animal-cards {
