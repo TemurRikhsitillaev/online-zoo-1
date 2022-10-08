@@ -1,3 +1,7 @@
+:root {
+  --background-image-1__section-3: 71px;
+}
+
 @media (max-width: 320px) {
   body {
     width: 320px;
@@ -42,7 +46,7 @@
     height: 500px;
     background-size: 35%;
     background-position: 287px 35px;
-    padding: 100px 10px 40px 10px;
+    padding: 105px 10px 40px 10px;
   }
 
   .backstage__text {
@@ -51,12 +55,21 @@
 
   .backstage__text h2 {
     height: 58px;
+    width: 234px;
     font-weight: 400;
     font-size: 24px;
     line-height: 120%;
   }
   #backstage__text-1 {
+    width: 289px;
+    height: auto;
     margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  #backstage__text-2 {
+    width: 300px;
+    height: 198px;
   }
 
   .backstage__text h3 {
@@ -65,10 +78,13 @@
   }
 
   .section-3 {
-    height: 1522px;
-    margin-top: 40px;
+    height: 1520px;
+    margin-top: 35px;
     padding: 0 17px;
-    background-size: 20%;
+    padding-bottom: 60px;
+    background: url(../../assests/images/phone-2.png) bottom left no-repeat,
+      url(../../assests/images/phone-1.png) bottom right no-repeat;
+
     overflow: hidden;
   }
   .arrow__button {
@@ -78,6 +94,7 @@
   .container__arrow_and_animal-cards {
     /* height: 1388px; */
     width: 285px;
+    margin-bottom: 20px;
   }
 
   .container-animal-cards {
@@ -110,7 +127,7 @@
   }
   .button__choose-favorite {
     margin-left: -5px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .section-4 {
@@ -120,8 +137,10 @@
   }
 
   .container__pick-and-feed {
+    height: 100%;
     padding: 0;
     padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   .container__pick-and-feed h1 {
@@ -164,6 +183,16 @@
     margin-bottom: 30px;
   }
 
+  .how-it-works__card {
+    width: 168px;
+    height: 222px;
+    margin-bottom: 20px;
+  }
+
+  .how-it-works__card:last-child {
+    margin-bottom: 0;
+  }
+
   .image__background {
     margin-bottom: 10px;
   }
@@ -189,8 +218,10 @@
   .section-5 {
     height: 580px;
     padding: 30px 10px 60px 10px;
-    background-size: 20%;
-    background-position: 260px 510px;
+    background: url(../../assests/images/leav_foto-phone.png) no-repeat;
+    /* background-size: 20%; */
+    background-position: 270px 520px;
+    /* transform: background(matrix(-0.97, -0.26, -0.26, 0.97, 0, 0)); */
     overflow: hidden;
   }
 
@@ -205,8 +236,13 @@
     width: 252px;
   }
 
+  .background__gradient-pink {
+    padding: 10px 29px 12px 12px;
+  }
+
   .container__feedback-cards {
     height: 357px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 
@@ -230,43 +266,45 @@
     display: none;
   }
   .phone-footer_logo {
+    width: 128px;
+    height: 23px;
     display: block;
     position: absolute;
-    margin-top: 20px;
-    margin-left: 90px;
+    margin-top: 10px;
+    margin-left: 75px;
   }
 
   .button__donate {
     position: absolute;
-    margin-top: 129px;
+    margin-top: 118px;
     margin-left: -9px;
   }
 
   .position-1 {
     position: absolute;
-    margin-top: 73px;
+    margin-top: 60px;
     left: 63px;
   }
   .position-2 {
     position: absolute;
-    top: 85px;
+    top: 72px;
     left: 119px;
   }
   .position-3 {
     position: absolute;
-    top: 85px;
+    top: 72px;
     left: 175px;
   }
   .position-4 {
     position: absolute;
-    top: 85px;
+    top: 72px;
     left: 231px;
   }
 
   .footer__link__rsschool {
     position: absolute;
     left: 75px;
-    top: 10px;
+    top: -2px;
 
     font-weight: 100;
     font-size: 15px;
@@ -275,5 +313,25 @@
 
   a.footer-link {
     margin-right: 30px;
+  }
+
+  .margin-bottom-13px {
+    display: block;
+    margin-bottom: 13px;
+  }
+
+  .footer-nav {
+    position: absolute;
+    top: -10px;
+  }
+
+  a.footer-link:nth-child(1) {
+    margin-right: 28px;
+  }
+  a.footer-link:nth-child(2) {
+    margin-right: 25px;
+  }
+  a.footer-link:nth-child(3) {
+    margin-right: 28px;
   }
 }

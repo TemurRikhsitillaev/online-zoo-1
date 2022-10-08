@@ -369,6 +369,7 @@ button:active {
 
   background: url(../../assests/images/palm_foto.png) left bottom no-repeat,
     url(../../assests/images/strelitzia-1.png) right bottom no-repeat;
+  background-size: 275px;
   padding: 0 140px;
 }
 
@@ -904,4 +905,12 @@ form {
 
 .phone-footer_logo {
   display: none;
+}
+
+.user__email__label {
+  margin-bottom: 14px;
+}
+
+.margin-bottom-13px {
+  display: block;
 }
