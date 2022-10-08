@@ -32,7 +32,7 @@
   }
 
   a.nav-link {
-    margin-right: 48px;
+    margin-right: 44px;
   }
 
   a.last {
@@ -50,6 +50,25 @@
     overflow: hidden;
   }
 
+  .text__zoo-info {
+    height: 94px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .text__donate-info {
+    height: 47px;
+    /* font-family: Roboto-400; */
+    /* font-weight: 400; */
+  }
+
+  .text__header-pick-and-feed {
+    text-align: left;
+    margin-left: 231px;
+    height: 58px;
+  }
+
   .text__header-section-2 {
     margin-bottom: 30px;
   }
@@ -62,7 +81,7 @@
 
   .container__pick-and-feed {
     height: 918px;
-    padding: 10px 0 46px 0;
+    padding: 20px 0 46px 0;
   }
 
   .text__header-pick-and-feed {
@@ -82,8 +101,8 @@
   /* CONTAINER PROGRESS-BAR */
 
   .container__progress-bar {
-    margin-left: 92px;
-    height: 105px;
+    margin-left: 65px;
+    height: 110px;
 
     overflow: hidden;
 
@@ -92,12 +111,13 @@
 
   .progress-steps {
     width: 810px;
-    height: 40px;
+    height: 27px;
   }
 
   .progress-steps:after {
+    position: absolute;
     width: 755px;
-    /* margin-left: 0; */
+    bottom: 12px;
     overflow: hidden;
   }
 
@@ -105,16 +125,29 @@
     margin-left: -129px;
   }
 
+  .progress-step {
+    margin-top: 10px;
+  }
+
   /* CONTAINER PROGRESS-BAR | END */
+
+  .text__amount {
+    padding-bottom: 10px;
+  }
 
   .input-amount {
     margin: 0 336px;
-    margin-bottom: 26px;
+    margin-bottom: 28px;
   }
 
   .container__radio {
-    margin-left: 363px;
+    width: 100%;
+    margin-left: 350px;
     margin-bottom: 30px;
+  }
+
+  .radio {
+    margin-right: 34px;
   }
 
   .button__feed-friend {
@@ -148,8 +181,33 @@
     margin-left: 541px;
   }
 
+  .input__email {
+  }
+
+  .user__email__label {
+    margin-bottom: 14px;
+  }
+
+  .footer-nav {
+    position: absolute;
+    left: 15px;
+  }
+
+  a.footer-link {
+    margin-right: 45px;
+  }
+
   .footer__link__rsschool {
     margin-left: 170px;
+  }
+
+  .margin-bottom-13px {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .footer__link__rsschool {
+    margin-top: 208px;
   }
 
   /* FOOTER END */

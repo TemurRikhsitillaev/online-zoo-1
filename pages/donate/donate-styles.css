@@ -782,4 +782,12 @@ form {
   display: none;
 }
 
+.margin-bottom-13px {
+  display: block;
+}
+
+.user__email__label {
+  margin-bottom: 14px;
+}
+
 /* FOOTER | END */

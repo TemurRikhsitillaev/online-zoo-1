@@ -81,6 +81,7 @@
   }
 
   .text__zoo-info {
+    height: auto;
     margin-bottom: 30px;
   }
 
@@ -91,10 +92,11 @@
   /* CONTAINER PICK AND FEED */
 
   .container__pick-and-feed {
-    padding: 19px 0 31px 0;
+    padding: 19px 0 0 0;
   }
 
   .text__header-pick-and-feed {
+    margin-left: 69px;
     margin-bottom: 20px;
   }
 
@@ -107,6 +109,11 @@
 
   /* CONTAINER PANDA */
 
+  .container__panda-diet {
+    height: auto;
+    margin-bottom: 41px;
+  }
+
   .container__number {
     margin-left: 27px;
   }
@@ -117,6 +124,7 @@
 
   .text__amount {
     margin-left: 10px;
+    margin-bottom: 0;
   }
 
   .container__progress-bar {
@@ -125,7 +133,7 @@
 
   .progress-steps {
     width: 600px;
-    height: 40px;
+    height: 27px;
   }
 
   .progress-steps:after {
@@ -149,12 +157,12 @@
 
   .container__radio {
     display: flex;
-    margin-left: 192px;
+    margin-left: 180px;
     margin-bottom: 30px;
   }
 
   .radio {
-    margin-right: 50px;
+    margin-right: 37px;
   }
 
   .button__feed-friend {
@@ -198,8 +206,14 @@
     bottom: 12px;
   }
 
+  .footer-nav {
+    position: absolute;
+    left: 0;
+    top: -1px;
+  }
+
   a.footer-link {
-    margin-right: 37px;
+    margin-right: 32px;
   }
   a.footer-link:last-child {
     margin-left: 0;
@@ -231,7 +245,7 @@
   .position-4 {
     position: absolute;
     margin: 0;
-    right: -62px;
+    right: -65px;
     top: 152px;
   }
 
@@ -253,11 +267,15 @@
     height: 52px;
     margin-left: 0;
     position: absolute;
-    right: -210px;
-    top: -6px;
+    right: -200px;
+    top: -10px;
   }
   .phone-footer_logo {
     display: none;
+  }
+  .margin-bottom-13px {
+    display: block;
+    margin-bottom: 0px;
   }
 
   /* FOOTER | END */
