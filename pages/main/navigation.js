@@ -4,9 +4,9 @@ const wrapper = document.querySelector(".nav__small__wrapper");
 
 let menuOpen = false;
 
-// alert(
-//   "Здравствуйте, сайт ещё в процессе разработки. Был бы очень рад если бы вы проверили мою работу 13 октября"
-// );
+alert(
+  "Здравствуйте, сайт ещё в процессе разработки. Был бы очень рад если бы вы проверили мою работу вечером 13 октября"
+);
 
 menuBtn.addEventListener("click", () => {
   if (!menuOpen) {
