@@ -98,23 +98,37 @@
     height: 801px;
   }
 
+  .container-animal-cards-slider {
+    width: 100%;
+    height: auto;
+    /* overflow: unset; */
+  }
+
   .container-animal-cards {
     width: 100%;
     height: 800px;
-    grid-template-columns: repeat(3, 294px);
-    grid-template-rows: 354px 64px 354px;
+    grid-template-columns: repeat(6, 294px);
+    grid-template-rows: 354px 354px;
     column-gap: 29px;
-    row-gap: 15px;
+    row-gap: 92px;
+  }
+
+  .rightButton {
+    position: absolute;
+    left: 590px;
+  }
+  .leftButton {
+    position: absolute;
+    left: 350px;
   }
 
   .right {
-    grid-row: 2/3;
-    grid-column: 1/3;
+    position: absolute;
     margin-right: 171px;
   }
   .left {
-    grid-row: 2/3;
-    grid-column: 3/4;
+    position: absolute;
+    left: 0;
   }
 
   .arrow-button__small-desktop {
@@ -122,10 +136,6 @@
     justify-content: center;
     grid-row: 2/3;
     grid-column: 1/4;
-  }
-
-  .hidden {
-    display: none;
   }
 
   .button__choose-favorite {
@@ -217,9 +227,14 @@
     background-size: 200px;
   }
 
+  .container__feedback-card-wrapper {
+    width: 930px;
+    height: auto;
+  }
+
   .container__feedback-cards {
-    width: 940px;
-    justify-content: space-between;
+    width: 100%;
+    margin-right: 30px;
     margin-top: 30px;
   }
 

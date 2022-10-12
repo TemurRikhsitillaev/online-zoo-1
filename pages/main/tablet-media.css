@@ -106,12 +106,13 @@
   .section-3 {
     height: 971px;
     margin-top: 32px;
-    overflow: hidden;
     background: url(../../assests/images/palm_foto-tablet.png) left bottom
         no-repeat,
       url(../../assests/images/strelitzia-tablet.png) right bottom no-repeat;
     padding: 0 20px;
     padding-bottom: 100px;
+
+    overflow: hidden;
   }
 
   .container__arrow_and_animal-cards {
@@ -119,12 +120,31 @@
     margin-bottom: 60px;
   }
 
+  .container-animal-cards-slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
   .container-animal-cards {
     width: 100%;
     height: 756px;
+    grid-template-columns: repeat(6, 285px);
+    grid-template-rows: 332px 332px;
+    column-gap: 29px;
+    row-gap: 92px;
   }
 
-  .cheetahs {
+  .rightButton {
+    position: absolute;
+    left: 335px;
+  }
+  .leftButton {
+    position: absolute;
+    left: 243px;
+  }
+
+  /* .cheetahs {
     display: none;
   }
   .penguins {
@@ -134,14 +154,14 @@
   .alligators {
     grid-column: 2/3;
     grid-row: 3/4;
-  }
+  } */
 
-  .container-animal-cards {
+  /* .container-animal-cards {
     grid-template-columns: repeat(2, 285px);
     grid-template-rows: 332px 64px 332px;
     row-gap: 11px;
     column-gap: 29px;
-  }
+  } */
 
   .container-animal-card {
     width: 285px;
@@ -248,18 +268,25 @@
     overflow: hidden;
   }
 
-  .container__feedback-cards {
-    display: block;
-    width: 100%;
-    height: auto;
+  .container__feedback-card-wrapper {
+    height: 357px;
     margin-top: 30px;
     margin-bottom: 40px;
   }
 
-  .container__feedback-card {
+  .container__feedback-cards {
+    display: block;
     width: 100%;
+    height: auto;
+    /* margin-top: 30px;
+    margin-bottom: 40px; */
+  }
+
+  .container__feedback-card {
+    width: 600px;
     height: 109px;
     margin-bottom: 15px;
+    margin-right: 0;
   }
 
   .container__feedback-card:last-child {
@@ -280,6 +307,12 @@
     line-height: 120%;
 
     color: #4f4f4f;
+  }
+
+  .popup__feedback-card .background__gradient-pink .feedback-text {
+    width: 237px;
+    height: 309px;
+    overflow: hidden;
   }
 
   .scroll {

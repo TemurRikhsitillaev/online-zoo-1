@@ -1,0 +1,16 @@
+{
+  "AnimalCards": {
+    "1": {
+      "animalImg": "../../assests/images/Rectangle-5.png",
+      "name": "GIANT PANDA",
+      "location": "Native to Southwest China",
+      "foodImg": "../../assests/images/banana-bamboo_icon.png"
+    },
+    "2": {
+      "animalImg": "../../assests/images/Rectangle-4.png",
+      "name": "EAGLES",
+      "location": "Native to South America",
+      "foodImg": "../../assests/images/meet-fish_icon.png"
+    }
+  }
+}
