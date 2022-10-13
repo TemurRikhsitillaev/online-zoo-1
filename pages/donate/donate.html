@@ -128,36 +128,43 @@
           <span class="text__amount">Amount</span>
           <ul class="progress-steps">
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$5000</span>
+              <span class="progress-circle" data-dollar="5000"></span>
+              <span class="progress-count" data-dollar="5000">$5000</span>
             </li>
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$2000</span>
+              <span class="progress-circle" data-dollar="2000"></span>
+              <span class="progress-count" data-dollar="2000">$2000</span>
             </li>
             <li class="progress-step">
-              <span class="progress-circle circleActive"></span>
-              <span class="progress-count countActive">$1000</span>
+              <span
+                class="progress-circle circleActive"
+                data-dollar="1000"
+              ></span>
+              <span class="progress-count countActive" data-dollar="1000"
+                >$1000</span
+              >
             </li>
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$500</span>
+              <span class="progress-circle" data-dollar="500"></span>
+              <span class="progress-count" data-dollar="500">$500</span>
             </li>
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$250</span>
+              <span class="progress-circle" data-dollar="250"></span>
+              <span class="progress-count" data-dollar="250">$250</span>
             </li>
             <li class="progress-step">
-              <span class="progress-circle dollar100"></span>
-              <span class="progress-count dollar100text">$100</span>
+              <span class="progress-circle dollar100" data-dollar="100"></span>
+              <span class="progress-count dollar100text" data-dollar="100"
+                >$100</span
+              >
             </li>
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$50</span>
+              <span class="progress-circle" data-dollar="50"></span>
+              <span class="progress-count" data-dollar="50">$50</span>
             </li>
             <li class="progress-step">
-              <span class="progress-circle"></span>
-              <span class="progress-count">$25</span>
+              <span class="progress-circle" data-dollar="25"></span>
+              <span class="progress-count" data-dollar="25">$25</span>
             </li>
           </ul>
         </div>
@@ -166,6 +173,10 @@
           type="number"
           placeholder="Another amount                        $"
           class="input-amount"
+          min="0"
+          max="5000"
+          value="0"
+          id="input__number"
         />
 
         <div class="container__radio">
