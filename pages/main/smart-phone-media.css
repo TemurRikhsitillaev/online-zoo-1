@@ -231,6 +231,10 @@
     line-height: 120%;
   }
 
+  .container__feedback-card-wrapper {
+    height: 380px;
+  }
+
   p.feedback-text {
     height: 38px;
     width: 252px;
