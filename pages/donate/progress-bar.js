@@ -18,8 +18,12 @@ if (bodyWidth == 640 || bodyWidth == 320) {
   dollar100.classList.add("circleActive");
   inputNumberOne.value = `${100}`;
 } else if (bodyWidth > 640 || bodyWidth <= 1000) {
-  inputNumberOne.value = `${1000}`;
+  inputNumberOne.value = `${100}`;
 } else if (bodyWidth > 320 || bodyWidth <= 640) {
+  dollar100text.classList.add("countActive");
+  dollar100.classList.add("circleActive");
+  inputNumberOne.value = `${100}`;
+} else if (bodyWidth > 1000 || bodyWidth <= 1600) {
   dollar100text.classList.add("countActive");
   dollar100.classList.add("circleActive");
   inputNumberOne.value = `${100}`;
