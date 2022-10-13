@@ -13,16 +13,21 @@ const inputNumberOne = document.querySelector(".input-amount");
 const inputNumberID = document.querySelector("#input__number");
 console.log(inputNumber.value);
 
+let numbers = [5000, 2000, 1000, 500, 250, 100, 50];
+
 if (bodyWidth == 640 || bodyWidth == 320) {
   dollar100text.classList.add("countActive");
   dollar100.classList.add("circleActive");
   inputNumberOne.value = `${100}`;
+  numbers = [500, 250, 100, 50];
 } else if (bodyWidth > 640 || bodyWidth <= 1000) {
+  numbers = [2000, 1000, 500, 250, 100, 50];
   inputNumberOne.value = `${100}`;
 } else if (bodyWidth > 320 || bodyWidth <= 640) {
   dollar100text.classList.add("countActive");
   dollar100.classList.add("circleActive");
   inputNumberOne.value = `${100}`;
+  numbers = [500, 250, 100, 50];
 } else if (bodyWidth > 1000 || bodyWidth <= 1600) {
   dollar100text.classList.add("countActive");
   dollar100.classList.add("circleActive");
@@ -68,6 +73,12 @@ Array.from(inputNumber).forEach((input) => {
 console.log(inputNumberID.value);
 inputNumberID.oninput = () => {
   console.log(inputNumberID.value);
+
+  if (!numbers.includes(inputNumberID.value)) {
+    countAll.forEach((el) => el.classList.remove("countActive"));
+    allCircle.forEach((el) => el.classList.remove("circleActive"));
+  }
+
   for (let i = 0; i < countAll.length; i++) {
     if (inputNumberID.value == countAll[i].getAttribute("data-dollar")) {
       countAll.forEach((el) => el.classList.remove("countActive"));
@@ -75,5 +86,8 @@ inputNumberID.oninput = () => {
       countAll[i].classList.add("countActive");
       allCircle[i].classList.add("circleActive");
     }
+    console.log(
+      inputNumberID.value !== countAll[i].getAttribute("data-dollar")
+    );
   }
 };
